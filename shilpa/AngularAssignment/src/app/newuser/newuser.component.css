@@ -1,33 +1,20 @@
-.input{
-    /* background-color:rgb(140, 230, 201); */
-    
-    background-size: cover;
-    text-align: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    padding-top: 100px;
-  
-
+.input {
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  padding-top: 100px;
 }
 
-.form-control{
+.form-control {
   background-color: rgb(213, 248, 217);
   padding: 10px 10px;
-  font-weight:bold ;
+  font-weight: bold;
 }
-.head{
-    background-color: rgb(192, 189, 189);
+.head {
+  background-color: rgb(192, 189, 189);
 }
-/* .btn{
-    background-color: rgb(235, 228, 219);
-    padding: 10px 10px;
-    font-weight:bold ;
-    width: 5%;
-    cursor: pointer;
-    border-radius: 10px;
-    margin-bottom: 100px;
-} */

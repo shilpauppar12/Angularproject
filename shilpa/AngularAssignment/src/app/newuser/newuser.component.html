@@ -1,72 +1,28 @@
 <div class="input">
   <form>
- <h3 class="head">Enter Details</h3>
-      <input 
-        #inputName
-        type="text"
-        class="form-control-lg"
-        [placeholder]="EnterName"
-        />
+    <h3 class="head">Enter Details</h3>
+    <input
+      #inputName
+      type="text"
+      class="form-control-lg"
+      [placeholder]="EnterName"
+    />
 
-      <input
-        
-        [(ngModel)]="inputAge"
-        name="ageInput"
-        type="number"
-        class="form-control-lg"
-        [placeholder]="EnterAge"
-      
-        />
-        <br><br>
-      <button type = "submit"  (click)="onClick(inputName.value, inputAge )" class="btn btn-success btn-lg" >Add</button>
-      <app-peopleadded [myDataArray]="users" ></app-peopleadded>
-    </form>
-    </div>
-   
-    
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <p>Child to Parent!</p>
-<input type="text" #ipbox />
-<button (click)="updateDataEvent.emit(ipbox.value)">submit</button> -->
-
-<!-- <input #inputName type="text" [placeholder]="EnterName" />
-<input #inputAge type="number" [placeholder]="EnterAge" />
-<button
-  class="btn"
-  (click)="onClickName(inputName)"
-  (click)="onClickAge(inputAge)"
-  (keyup)="onClickName(inputName)"
->
-  Add
-</button>
-<div *ngFor="let item of userList">Username: {{item}}, UserAge: {{item}}</div> -->
-
-
-<!-- <table>
-  <tbody>
-    <tr *ngFor="let item of users; index as userno">
-      <td>{{ userno }}</td>
-      <td>{{ item.name }}</td>
-      <td>{{ item.age }}</td>
-    </tr>
-  </tbody>
-</table> -->
+    <input
+      [(ngModel)]="inputAge"
+      name="ageInput"
+      type="number"
+      class="form-control-lg"
+      [placeholder]="EnterAge"
+    />
+    <br /><br />
+    <button
+      type="submit"
+      (click)="onClick(inputName.value, inputAge)"
+      class="btn btn-success btn-lg"
+    >
+      Add
+    </button>
+    <app-peopleadded [myDataArray]="users"></app-peopleadded>
+  </form>
+</div>

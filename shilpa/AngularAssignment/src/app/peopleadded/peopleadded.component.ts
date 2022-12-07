@@ -6,8 +6,6 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./peopleadded.component.css'],
 })
 export class PeopleaddedComponent implements OnInit {
-  // name : string = 'shilpa'
-  // @Input () myDataArray : any []=[]
   users: any = [
     { id: '01', name: 'Thomas', age: '28' },
     { id: '02', name: 'Diana', age: '16' },
